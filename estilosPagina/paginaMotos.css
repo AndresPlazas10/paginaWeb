@@ -1,0 +1,91 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.titulo
+{
+    color: rgb(95, 95, 95);
+    text-shadow: 2px 2px 4px gray;
+    position: fixed;
+    top: -13px;
+    font-size: 20px;
+}
+
+.imagenFondo {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(117, 167, 233);
+    border: none;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/012/574/226/non_2x/background-texture-sports-racing-style-blue-sky-color-vector.jpg);
+    position: fixed;
+    margin: -7px -7px -7px -7px;
+    align-items: center;
+    display: flex;
+}
+
+.servicios {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(60, 139, 175);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    margin: auto;
+}
+
+p
+{
+    background-color: rgb(200, 197, 197);
+    text-align: center;
+    justify-content:center;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    height: 5vw;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.tablaImagenesMotos
+{
+    border: 2px solid rgb(125, 125, 125);
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+a{
+    text-decoration: none;
+    margin: auto;
+    font-size: 15px;
+}
+
+table
+{
+    margin: auto;
+}
+
+.tituloMotos
+{
+    background-image: url(https://img.freepik.com/vector-premium/patron-grafico-linea-flecha-abstracta-jersey-deportivo_66757-329.jpg); 
+    text-shadow: 7px 7px 10px rgb(195, 195, 195);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+footer
+{
+    background-color: grey;
+    color: rgb(236, 236, 236);
+}
+
+.encabezado
+{
+    color: rgb(54, 54, 54);
+    text-shadow: 5px 5px 5px rgb(151, 151, 151);
+}
+
