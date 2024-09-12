@@ -1,0 +1,68 @@
+#tituloPrincipal{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.tituloMarca{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+img{
+    display: block;
+    margin: auto;
+}
+#contenedorImg{
+    display: flex; 
+    justify-content: space-around;
+}
+.Descripcion{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+.tituloTabla{
+    background-color: grey;
+}
+.imgPrincipal{
+    background: url("https://supercurioso.com/wp-content/uploads/2019/11/Bandera-de-Jap%C3%B3n-_-Descripci%C3%B3n-y-significado.jpg");
+    
+    background-repeat: no-repeat;
+   background-attachment:scroll;
+    width: 500px;
+    height: 500px;
+}
+.tablas{
+    margin: auto;
+}
+.cabezote{
+    position: relative;
+}
+#imgCabezote{
+width: 100%; 
+height: 600px;
+}
+#estilosCabezote{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    color: white;  
+    padding: 20px;
+}
+#Home{
+   position: fixed; 
+   bottom: 10px;; 
+   z-index: 1000; 
+   height:50px; 
+   width:50px; 
+}
+
+img:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
